@@ -1,0 +1,22 @@
+{
+  "name": "reborn/reborn-swx",
+  "version": "1.0.0",
+  "description": "This is a swoole framework",
+  "authors": [
+    {
+      "name": "reborn",
+      "email": "1395518942@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "swx\\":"framework/src/"
+    },
+    "psr-0": {
+      "": "extend/"
+    }
+  }
+}
